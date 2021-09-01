@@ -36,4 +36,8 @@
         person.name='frank',person.age=18;
         person
         ```
+
+# 'name' in obj和obj.hasOwnProperty('name') 的区别
+   * 'name' in obj表示在自身+共有属性中寻找是否含有这个属性名
+   * 而obj.hasOwnProperty('name')表示在自身属性中寻找是否含有这个属性名
    
